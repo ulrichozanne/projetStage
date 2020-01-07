@@ -1,13 +1,4 @@
-@font-face
+body
 {
-	font-family: 'police';
-	src: url('fonts\police.tff');
-
-}
-
-
-
-h1
-{
-	font-family: 'police';
+	background-image: url('image/wallpaper.jpg');
 }
