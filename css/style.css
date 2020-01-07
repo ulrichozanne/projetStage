@@ -1,0 +1,13 @@
+@font-face
+{
+	font-family: 'police';
+	src: url('fonts\police.tff');
+
+}
+
+
+
+h1
+{
+	font-family: 'police';
+}
