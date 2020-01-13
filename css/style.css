@@ -29,14 +29,13 @@ header
 {
 	background-color: white;
 	margin-top: 1px;
-    -webkit-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
-    -moz-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
-    box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
-    
+  -webkit-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+  -moz-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+  box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
 }
 
 
-header::after 
+header::after
 {
 	content: '';
 	display: table;
@@ -47,7 +46,7 @@ nav
 {
 	float: center;
 	text-align: center;
-	
+
 }
 
 footer
@@ -61,6 +60,7 @@ footer
   -webkit-box-shadow: -10px -10px 7px 0px rgba(61,84,61,0.22);
   -moz-box-shadow: -10px -10px 7px 0px rgba(61,84,61,0.22);
    box-shadow: -10px -10px 7px 0px rgba(61,84,61,0.22);
+	 display: flex;
 }
 
 .afooter
@@ -162,8 +162,53 @@ li
 	margin-bottom: 50%;
 }
 
+.container
+{
+ display: flex;
+ justify-content: center;
+ margin-top: -14px;
+}
+
 .testa
 {
 	color: black;
 }
 
+/* test */
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+	margin-top: 180px;
+	width: 1100px;
+	margin-left: 8%;
+	-webkit-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+	-moz-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+	box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+	border-bottom: 5px solid black;
+
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+	margin-left: 3%;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
