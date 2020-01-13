@@ -1,0 +1,169 @@
+body
+{
+	margin: -60px;
+	padding-top: 1%;
+
+}
+
+.bg
+{
+background-color: rgba(98, 255, 0, 0.1);
+background: rgba(98, 255, 0, 0.1);
+color: rgba(98, 255, 0, 0.1);
+}
+
+nav p
+{
+	margin-bottom: auto;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	margin-left: auto;
+	font-size: 40px;
+	height: 80px;
+	padding-top: 16px;
+
+}
+
+
+header
+{
+	background-color: white;
+	margin-top: 1px;
+    -webkit-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+    box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+    
+}
+
+
+header::after 
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav
+{
+	float: center;
+	text-align: center;
+	
+}
+
+footer
+{
+  background-color: white;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-box-shadow: -10px -10px 7px 0px rgba(61,84,61,0.22);
+  -moz-box-shadow: -10px -10px 7px 0px rgba(61,84,61,0.22);
+   box-shadow: -10px -10px 7px 0px rgba(61,84,61,0.22);
+}
+
+.afooter
+{
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size: 22px;
+	padding-left: 50%;
+
+}
+
+
+
+.h1titre
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	color: black;
+}
+
+
+
+.h1titrelogin
+{
+	width: 200px;
+	height: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+}
+
+.login
+
+{
+    font-family: 'Roboto', sans-serif;
+	width: 320px;
+	height: 420px;
+	background: #ffffff ;
+	color: black;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border: 3px solid #408E48;
+    border-radius: 0px 9px 0px 0px;
+    -webkit-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+    box-shadow: 10px 10px 7px 0px rgba(61,84,61,0.22);
+}
+
+.button
+{
+	color: white;
+	border : 3px solid green;
+	background-color: green;
+	border-radius: 9px 9px 9px 9px;
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+
+.zonetext
+{
+	border:none;
+	border-bottom: 1px solid green;
+	background: transparent;
+	outline: none;
+	font-size: 16px;
+	height: 30px;
+	text-align: center;
+
+}
+
+.sectionmenu
+{
+	background: white;
+	position: absolute;
+	width: 780px;
+	height : 7%;
+	left: 25%;
+	bottom: 65%;
+	text-align: auto;
+	border-bottom: 5px solid #1C6EA4;
+}
+
+li
+{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+	margin: 11%;
+
+}
+
+.lipadding
+{
+	margin-left: 25%;
+	margin-top: 25%;
+	margin-bottom: 50%;
+}
+
+.testa
+{
+	color: black;
+}
+
