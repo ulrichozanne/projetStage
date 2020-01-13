@@ -8,7 +8,12 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
 </style>
-dqsdsqdsq
+
+<?php
+
+include("bddconnexion.php");
+
+ ?>
 
 
 </head>
@@ -26,7 +31,7 @@ dqsdsqdsq
 		<br>
 		<br>
 		<p>Mot de passe</p>
-		<input type="password" name="motdepasse" placeholder="Mot de passe" class="zonetext">
+		<input type="password" name="mdp" placeholder="Mot de passe" class="zonetext">
 		<br>
 		<br>
 		<br>
